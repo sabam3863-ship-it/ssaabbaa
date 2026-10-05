@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="მოდუსი — სამშენებლო და სარემონტო მასალების ჰიპერმარკეტი. აღმოაჩინეთ შეთავაზებები და შეარჩიეთ სასურველი პროდუქტი."
+    />
+    <title>მოდუსი — სამშენებლო ჰიპერმარკეტი</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <div class="utility-bar">
+        <div class="container utility-inner">
+          <nav class="utility-links" aria-label="დამატებითი ბმულები">
+            <a href="#brands">ბრენდები</a>
+            <a href="#inspiration">ბლოგი</a>
+            <a href="#about">ჩვენ შესახებ</a>
+            <a href="#delivery">მიწოდება</a>
+          </nav>
+          <a class="hotline" href="tel:0322060101">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.56 3.58.56a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.19 2.46.56 3.58a1 1 0 01-.25 1.02l-2.19 2.19z"/></svg>
+            032 2 06 01 01
+          </a>
+        </div>
+      </div>
+
+      <div class="container main-header">
+        <a class="brand" href="#" aria-label="მოდუსის მთავარი გვერდი">
+          <img class="brand-logo-image" src="assets/brand-logo-source.png" alt="სამშენებლო მასალების მაღაზიის ლოგო" />
+        </a>
+
+        <form class="search" action="https://modus.ge/product_search.php" method="post" role="search">
+          <label class="visually-hidden" for="site-search">პროდუქციის ძებნა</label>
+          <input id="site-search" type="search" name="SearchName" placeholder="პროდუქციის ძებნა" autocomplete="off" />
+          <button type="submit" aria-label="ძებნა">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+          </button>
+        </form>
+
+        <div class="header-actions">
+          <input class="view-toggle-input" type="radio" name="product-view" id="product-view-grid" checked />
+          <label class="icon-button view-toggle" for="product-view-grid" aria-label="ბადის ხედვა">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg>
+          </label>
+          <input class="view-toggle-input" type="radio" name="product-view" id="product-view-list" />
+          <label class="icon-button view-toggle list-toggle" for="product-view-list" aria-label="სიის ხედვა">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5h12M9 12h12M9 19h12"></path><circle cx="4" cy="5" r="1"></circle><circle cx="4" cy="12" r="1"></circle><circle cx="4" cy="19" r="1"></circle></svg>
+          </label>
+          <span class="language-button" aria-label="ენა: ქართული">
+            <span class="georgian-flag" aria-hidden="true">✣</span><span>KA</span><span class="chevron">⌄</span>
+          </span>
+        </div>
+      </div>
+
+      <nav class="category-nav" aria-label="პროდუქციის კატეგორიები">
+        <div class="container category-nav-inner">
+          <a class="catalog-link" href="#categories">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h16M4 19h16"></path></svg>
+            კატალოგი
+          </a>
+          <a href="#sale">ფასდაკლებები</a>
+          <a href="#categories">სახლი და ბაღი</a>
+          <a href="#categories">სამშენებლო მასალები</a>
+          <a href="#categories">ხელსაწყოები</a>
+          <a href="#categories">გათბობა და გაგრილება</a>
+          <a href="#categories">სანტექნიკა</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" aria-label="მთავარი შეთავაზება">
+        <input class="hero-slide-toggle" type="radio" name="hero-slide" id="hero-slide-1" checked />
+        <input class="hero-slide-toggle" type="radio" name="hero-slide" id="hero-slide-2" />
+        <input class="hero-slide-toggle" type="radio" name="hero-slide" id="hero-slide-3" />
+        <div class="hero-slides">
+          <article class="hero-slide hero-slide-1">
+            <div class="hero-copy">
+              <span class="eyebrow"><span class="eyebrow-dot"></span> სეზონის შეთავაზება</span>
+              <h1>განაახლე სახლი<br /><strong>მოდუსთან ერთად</strong></h1>
+              <p>შეარჩიე ხარისხიანი ტექნიკა და საჭირო ნივთები საუკეთესო ფასად.</p>
+              <a class="button button-dark" href="#sale">შეარჩიე პროდუქცია <span aria-hidden="true">→</span></a>
+              <div class="hero-controls">
+                <label class="hero-arrow" for="hero-slide-3" aria-label="წინა შეთავაზება">←</label>
+                <label class="hero-arrow" for="hero-slide-2" aria-label="შემდეგი შეთავაზება">→</label>
+                <span class="slide-count">01 / 03</span>
+              </div>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+              <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+              <div class="hero-sparkle sparkle-one">✳</div><div class="hero-sparkle sparkle-two">✳</div>
+              <div class="hero-product"><img src="https://modus.ge/images/products2/3958547cda8f0a093cb62bbb7b627d1d5f49d.png" alt="" /></div>
+              <div class="hero-sticker"><span>სახლი</span><b>შენი წესებით</b></div>
+            </div>
+          </article>
+          <article class="hero-slide hero-slide-2">
+            <div class="hero-copy">
+              <span class="eyebrow"><span class="eyebrow-dot"></span> შეთავაზება შენი სახლისთვის</span>
+              <h1>შექმენი შენი<br /><strong>იდეალური სივრცე</strong></h1>
+              <p>შენი სახლისთვის საჭირო ყველა პროდუქტი ერთ სივრცეში დაგხვდება.</p>
+              <a class="button button-dark" href="#sale">შეარჩიე პროდუქცია <span aria-hidden="true">→</span></a>
+              <div class="hero-controls">
+                <label class="hero-arrow" for="hero-slide-1" aria-label="წინა შეთავაზება">←</label>
+                <label class="hero-arrow" for="hero-slide-3" aria-label="შემდეგი შეთავაზება">→</label>
+                <span class="slide-count">02 / 03</span>
+              </div>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+              <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+              <div class="hero-sparkle sparkle-one">✳</div><div class="hero-sparkle sparkle-two">✳</div>
+              <div class="hero-product"><img src="https://modus.ge/images/products2/57173ccb38b5568a1936852b2c201c85b078e.jpg" alt="" /></div>
+              <div class="hero-sticker"><span>სახლი</span><b>შენი წესებით</b></div>
+            </div>
+          </article>
+          <article class="hero-slide hero-slide-3">
+            <div class="hero-copy">
+              <span class="eyebrow"><span class="eyebrow-dot"></span> ყველაფერი რემონტისთვის</span>
+              <h1>ყველაფერი რემონტისთვის<br /><strong>ერთ სივრცეში</strong></h1>
+              <p>აღმოაჩინე ხელსაწყოები და მასალები, რომლებიც საქმეს გაგიმარტივებს.</p>
+              <a class="button button-dark" href="#sale">შეარჩიე პროდუქცია <span aria-hidden="true">→</span></a>
+              <div class="hero-controls">
+                <label class="hero-arrow" for="hero-slide-2" aria-label="წინა შეთავაზება">←</label>
+                <label class="hero-arrow" for="hero-slide-1" aria-label="შემდეგი შეთავაზება">→</label>
+                <span class="slide-count">03 / 03</span>
+              </div>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+              <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+              <div class="hero-sparkle sparkle-one">✳</div><div class="hero-sparkle sparkle-two">✳</div>
+              <div class="hero-product"><img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=85" alt="" /></div>
+              <div class="hero-sticker"><span>სახლი</span><b>შენი წესებით</b></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container categories-section" id="categories">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">აღმოაჩინე</span>
+            <h2>პოპულარული კატეგორიები</h2>
+          </div>
+          <a class="text-link" href="#sale">ყველას ნახვა <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="category-cards">
+          <a class="category-card category-blue" href="#sale">
+            <span class="category-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M14 8h20v32H14zM19 13v22m10-22v22M9 14h5m20 0h5M9 34h5m20 0h5"></path></svg>
+            </span>
+            <span class="category-label">გათბობა და<br />გაგრილება</span><span class="category-arrow">↗</span>
+          </a>
+          <a class="category-card category-orange" href="#sale">
+            <span class="category-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="m11 37 22-22 5 5-22 22zM26 15l5-5 7 7-5 5M9 39l5 2-3-5"></path><path d="m14 14 7-7 5 5-7 7z"></path></svg>
+            </span>
+            <span class="category-label">ხელსაწყოები</span><span class="category-arrow">↗</span>
+          </a>
+          <a class="category-card category-green" href="#sale">
+            <span class="category-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M24 40V19m0 12c-9 0-14-5-14-13 8 0 13 4 14 12m0-5c0-8 5-13 14-13 0 8-5 13-14 13z"></path><path d="M12 40h24"></path></svg>
+            </span>
+            <span class="category-label">სახლი და ბაღი</span><span class="category-arrow">↗</span>
+          </a>
+          <a class="category-card category-lilac" href="#sale">
+            <span class="category-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M9 24h30v5a11 11 0 0 1-11 11h-8A11 11 0 0 1 9 29zm5 16v3m20-3v3M15 24V12a5 5 0 0 1 10 0"></path><path d="M25 12h6v4"></path></svg>
+            </span>
+            <span class="category-label">სანტექნიკა</span><span class="category-arrow">↗</span>
+          </a>
+          <a class="category-card category-yellow" href="#sale">
+            <span class="category-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M17 30a13 13 0 1 1 14 0c-2 1-3 3-3 5h-8c0-2-1-4-3-5zm4 9h8m-7 4h6"></path><path d="M24 4V1M7 10l-2-2m36 2 2-2"></path></svg>
+            </span>
+            <span class="category-label">განათება</span><span class="category-arrow">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="container sale-section" id="sale">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">შეზღუდული დროით</span>
+            <h2>ფასდაკლებები</h2>
+          </div>
+          <div class="section-tools">
+            <div class="filter-tabs" role="group" aria-label="პროდუქტების ფილტრი">
+              <input class="filter-input" type="radio" name="product-filter" id="filter-all" checked />
+              <label class="filter-tab" for="filter-all">ყველა</label>
+              <input class="filter-input" type="radio" name="product-filter" id="filter-heating" />
+              <label class="filter-tab" for="filter-heating">გათბობა</label>
+              <input class="filter-input" type="radio" name="product-filter" id="filter-tools" />
+              <label class="filter-tab" for="filter-tools">ხელსაწყოები</label>
+            </div>
+            <a class="text-link desktop-link" href="#sale">ყველას ნახვა <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+          <input class="cart-toggle" type="checkbox" id="cart-water-heater" />
+          <input class="cart-toggle" type="checkbox" id="cart-air-conditioner" />
+          <input class="cart-toggle" type="checkbox" id="cart-tools" />
+          <input class="cart-toggle" type="checkbox" id="cart-formax" />
+          <article class="product-card" data-category="heating" data-search="ელექტროლუქსი წყლის გამაცხელებელი boiler წყალი">
+            <div class="product-image image-tank">
+              <span class="discount">−7%</span>
+              <input class="favorite-toggle" type="checkbox" id="favorite-water-heater" />
+              <label class="favorite-button" for="favorite-water-heater" aria-label="რჩეულებში დამატება"></label>
+              <img src="https://modus.ge/images/products2/3958547cda8f0a093cb62bbb7b627d1d5f49d.png" alt="Electrolux-ის წყლის გამაცხელებელი" loading="lazy" />
+            </div>
+            <div class="product-info">
+              <span class="product-brand">ELECTROLUX</span>
+              <h3><a href="#product-electrolux">ელ. წყალგამაცხელებელი EWH 80ლტ. Formax DL</a></h3>
+              <div class="rating"><span>★★★★★</span> <small>(12)</small></div>
+              <div class="product-bottom"><div><strong>559.00 ₾</strong><del>599.00 ₾</del></div><label class="add-to-cart" for="cart-water-heater" aria-label="კალათაში დამატება"></label></div>
+            </div>
+          </article>
+          <article class="product-card" data-category="heating" data-search="კონდიციონერი berg გათბობა გაგრილება">
+            <div class="product-image image-climate">
+              <span class="discount">−22%</span>
+              <input class="favorite-toggle" type="checkbox" id="favorite-air-conditioner" />
+              <label class="favorite-button" for="favorite-air-conditioner" aria-label="რჩეულებში დამატება"></label>
+              <img src="https://modus.ge/images/products2/57173ccb38b5568a1936852b2c201c85b078e.jpg" alt="კონდიციონერი გათბობისა და გაგრილებისთვის" loading="lazy" />
+            </div>
+            <div class="product-info">
+              <span class="product-brand">BERG</span>
+              <h3><a href="#product-berg">კონდიციონერი SFTO-07HN1 7000 BTU</a></h3>
+              <div class="rating"><span>★★★★★</span> <small>(8)</small></div>
+              <div class="product-bottom"><div><strong>699.00 ₾</strong><del>899.00 ₾</del></div><label class="add-to-cart" for="cart-air-conditioner" aria-label="კალათაში დამატება"></label></div>
+            </div>
+          </article>
+          <article class="product-card" data-category="tools" data-search="ხელსაწყო ინსტრუმენტი რემონტი ელექტრო">
+            <div class="product-image image-tools">
+              <span class="discount">−15%</span>
+              <input class="favorite-toggle" type="checkbox" id="favorite-tools" />
+              <label class="favorite-button" for="favorite-tools" aria-label="რჩეულებში დამატება"></label>
+              <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=700&q=85" alt="ხელის ინსტრუმენტები სარემონტო სამუშაოებისთვის" loading="lazy" />
+            </div>
+            <div class="product-info">
+              <span class="product-brand">DEWALT</span>
+              <h3><a href="#product-tools">ელექტრო ხელსაწყოების ნაკრები სახლისთვის</a></h3>
+              <div class="rating"><span>★★★★★</span> <small>(16)</small></div>
+              <div class="product-bottom"><div><strong>289.00 ₾</strong><del>339.00 ₾</del></div><label class="add-to-cart" for="cart-tools" aria-label="კალათაში დამატება"></label></div>
+            </div>
+          </article>
+          <article class="product-card" data-category="heating" data-search="წყლის გამაცხელებელი electrolux გათბობა">
+            <div class="product-image image-heater">
+              <span class="discount">−10%</span>
+              <input class="favorite-toggle" type="checkbox" id="favorite-formax" />
+              <label class="favorite-button" for="favorite-formax" aria-label="რჩეულებში დამატება"></label>
+              <img src="https://modus.ge/images/products2/39585-247cda8f0a093cb62bbb7b627d1d5f49d.png" alt="ელექტრო წყლის გამაცხელებელი" loading="lazy" />
+            </div>
+            <div class="product-info">
+              <span class="product-brand">ELECTROLUX</span>
+              <h3><a href="#product-water">წყლის გამაცხელებელი Formax, 80 ლიტრი</a></h3>
+              <div class="rating"><span>★★★★★</span> <small>(5)</small></div>
+              <div class="product-bottom"><div><strong>449.00 ₾</strong><del>499.00 ₾</del></div><label class="add-to-cart" for="cart-formax" aria-label="კალათაში დამატება"></label></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container benefits" id="delivery" aria-label="ჩვენი უპირატესობები">
+        <div class="benefit">
+          <span class="benefit-icon">↗</span>
+          <div><strong>სწრაფი მიწოდება</strong><span>თბილისსა და რეგიონებში</span></div>
+        </div>
+        <div class="benefit">
+          <span class="benefit-icon">✓</span>
+          <div><strong>ხარისხის გარანტია</strong><span>მხოლოდ სანდო ბრენდები</span></div>
+        </div>
+        <div class="benefit">
+          <span class="benefit-icon">₾</span>
+          <div><strong>მოქნილი გადახდა</strong><span>შეარჩიე შენთვის მოსახერხებელი</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="about">
+      <section class="container social-panel" aria-labelledby="social-heading">
+        <h2 id="social-heading">გამოგვყევით სოციალურ ქსელებში</h2>
+        <div class="social-links">
+          <a class="social-link social-facebook" href="https://www.facebook.com/profile.php?id=100090105964991" target="_blank" rel="noopener noreferrer" aria-label="Modus Facebook-ზე">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.5 1.6-1.5h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.2v3.2H10V21z"/></svg>
+          </a>
+          <a class="social-link social-instagram" href="https://www.instagram.com/modus.ge/" target="_blank" rel="noopener noreferrer" aria-label="Modus Instagram-ზე">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle class="instagram-dot" cx="17.7" cy="6.8" r="1"></circle></svg>
+          </a>
+          <a class="social-link social-linkedin" href="https://ge.linkedin.com/company/modusgeorgia" target="_blank" rel="noopener noreferrer" aria-label="Modus LinkedIn-ზე">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.8H2.4V21h2.8zM3.8 3a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4M21.6 13.2c0-3.7-2-5.4-4.7-5.4a4.1 4.1 0 0 0-3.7 2V8.8h-2.8V21h2.8v-6.1c0-1.6.3-3.2 2.4-3.2s2.1 1.9 2.1 3.3V21h2.8z"/></svg>
+          </a>
+          <a class="social-link social-tiktok" href="https://www.tiktok.com/@modusi_" target="_blank" rel="noopener noreferrer" aria-label="Modus TikTok-ზე">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3h-3.2v12.3a2.7 2.7 0 1 1-2.3-2.7V9.3a6 6 0 1 0 5.5 6V9a8 8 0 0 0 4.5 1.4V7.2c-2.6-.1-4.3-1.8-4.5-4.2"/></svg>
+          </a>
+        </div>
+      </section>
+
+      <div class="container footer-main">
+        <section class="footer-contact" aria-label="საკონტაქტო ინფორმაცია">
+          <a class="footer-logo" href="#" aria-label="მოდუსის მთავარი გვერდი">
+            <img class="brand-logo-image" src="assets/brand-logo-source.png" alt="სამშენებლო მასალების მაღაზიის ლოგო" loading="lazy" />
+          </a>
+          <a class="footer-contact-link" href="tel:0322060101">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2c1.1.3 2.3.5 3.6.5a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.6 3.6a1 1 0 0 1-.3 1z"/></svg>
+            032 2 06 01 01
+          </a>
+          <a class="footer-contact-link" href="mailto:info@modus.com.ge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z"></path><path d="m3 6 9 7 9-7"></path></svg>
+            info@modus.com.ge
+          </a>
+          <div class="payment-methods" aria-label="გადახდის მეთოდები">
+            <span class="payment-visa">VISA</span>
+            <span class="payment-mastercard" aria-label="Mastercard"><i></i><i></i></span>
+            <span class="payment-maestro">maestro</span>
+            <span class="payment-amex">AMEX</span>
+          </div>
+        </section>
+
+        <nav class="footer-column" aria-label="ინფორმაცია">
+          <h2>ინფორმაცია</h2>
+          <a href="#brands">ბრენდები</a>
+          <a href="#about">კონტაქტი</a>
+          <a href="#delivery">ვაკანსია</a>
+          <a href="#delivery">მიწოდება</a>
+          <a href="#about">სავაჭრო პოლიტიკა</a>
+          <a href="#about">კონფიდენციალურობის პოლიტიკა</a>
+          <a href="#delivery">ხშირად დასმული კითხვები</a>
+          <a href="#delivery">შეკვეთის ინსტრუქცია</a>
+        </nav>
+
+        <nav class="footer-column" aria-label="მომხმარებლის ბმულები">
+          <h2>მომხმარებელი</h2>
+          <a href="#about">ჩემი კალათა</a>
+          <a href="#about">შეკვეთები</a>
+          <a href="#sale">სურვილები</a>
+          <a href="#delivery">შედარების სია</a>
+        </nav>
+
+        <div class="footer-location-newsletter">
+          <section class="footer-column footer-locations" aria-label="ფილიალები">
+            <h2>ფილიალები</h2>
+            <a href="https://www.google.com/maps/search/Modus+Georgia+Batumi" target="_blank" rel="noopener noreferrer">ბათუმი <span aria-hidden="true">⌄</span></a>
+            <a href="https://www.google.com/maps/search/Modus+Georgia+Tbilisi" target="_blank" rel="noopener noreferrer">თბილისი <span aria-hidden="true">⌄</span></a>
+          </section>
+          <form class="newsletter-form" action="https://modus.ge/ka" method="get">
+            <label for="newsletter-email">იყავით კავშირზე</label>
+            <div class="newsletter-controls">
+              <input id="newsletter-email" type="email" name="SubscriberEmail" placeholder="ელ.ფოსტა" autocomplete="email" required />
+              <button type="submit">გამოწერა</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <span>© 2026 Modus. All Rights Reserved</span>
+        </div>
+      </div>
+    </footer>
+
+    <a class="floating-call" href="tel:0322060101" aria-label="დაგვირეკეთ">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.56 3.58.56a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.19 2.46.56 3.58a1 1 0 01-.25 1.02l-2.19 2.19z"/></svg>
+    </a>
+    <a class="back-to-top" href="#top" aria-label="გვერდის თავში დაბრუნება">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m-7 7 7-7 7 7"></path></svg>
+    </a>
+
+    <nav class="mobile-nav" aria-label="მთავარი ნავიგაცია">
+      <a class="mobile-nav-item is-current" href="#"><span class="mobile-nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-8 9 8v10h-6v-6H9v6H3z"></path></svg></span><span>მთავარი</span></a>
+      <a class="mobile-nav-item" href="#sale"><span class="mobile-nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 1.9-1.4L21 8H6"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg></span><span>კალათა <b class="cart-count"></b></span></a>
+      <a class="mobile-nav-item" href="#sale"><span class="mobile-nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5.2-8.8 11-8.8 11s-8.8-5.8-8.8-11A4.8 4.8 0 0 1 12 6a4.8 4.8 0 0 1 8.8 2.8z"></path></svg></span><span>სურვილები</span></a>
+      <a class="mobile-nav-item" href="#about"><span class="mobile-nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7" r="4"></circle><path d="M4 21v-2a8 8 0 0 1 16 0v2"></path></svg></span><span>ანგარიში</span></a>
+    </nav>
+
+  </body>
+</html>
